@@ -1,0 +1,64 @@
+baseURL: https://premday.github.io/network
+languageCode: en-us
+title: Premday Network
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+params:
+  author:
+    name: Premday Network Stream
+    email: network@lists.premday.org
+
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    width: wide
+    logo:
+      path: 'images/logo_dark@2x.png'
+      dark: 'images/logo_light@2x.png'
+      width: 180
+  highlight:
+    copy:
+      enable: false
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+  editURL:
+    base: "https://github.com/premday/network/edit/main/content"
+    text: "Edit this page"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: SONiC
+      pageRef: /sonic
+      weight: 1
+    - name: Networking
+      pageRef: /networking
+      weight: 2
+    - name: Theme Toggle
+      weight: 97
+      params:
+        type: theme-toggle
+    - name: GitHub
+      weight: 99
+      url: "https://github.com/premday/network"
+      params:
+        icon: github
+    - name: Premday
+      weight: 98
+      url: "https://premday.github.io"
+      params:
+        icon: home
