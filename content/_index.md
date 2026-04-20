@@ -14,7 +14,7 @@ cascade:
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
   Tools, hardware list and guides
-  <br/>built and shared by people running it in production.
+  <br/>built and shared by infra-owners running it in production.
 {{< /hextra/hero-subtitle >}}
 </div>
 
