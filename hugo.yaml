@@ -1,6 +1,6 @@
-baseURL: https://premday.github.io/network
+baseURL: https://premday.github.io/sonic
 languageCode: en-us
-title: Premday Network
+title: Premday SONiC Network
 
 caches:
   images:
@@ -12,7 +12,7 @@ module:
 
 params:
   author:
-    name: Premday Network Stream
+    name: Premday SONiC Network Stream
     email: network@lists.premday.org
 
   navbar:
@@ -30,7 +30,7 @@ params:
     displayCopyright: true
     displayPoweredBy: false
   editURL:
-    base: "https://github.com/premday/network/edit/main/content"
+    base: "https://premday.github.io/sonic/edit/main/content"
     text: "Edit this page"
 
 markup:
@@ -54,7 +54,7 @@ menu:
         type: theme-toggle
     - name: GitHub
       weight: 99
-      url: "https://github.com/premday/network"
+      url: "https://github.com/premday/sonic"
       params:
         icon: github
     - name: Premday
