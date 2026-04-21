@@ -19,7 +19,7 @@ cascade:
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="Join us" link="https://premday.github.io/usergroup/about/#join-us" >}}
+{{< hextra/hero-button text="Join us" link="https://sonic.premday.org/usergroup/about/#join-us" >}}
 </div>
 
 <div class="hx:mt-6"></div>

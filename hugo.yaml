@@ -1,4 +1,4 @@
-baseURL: https://premday.github.io/sonic
+baseURL: https://sonic.premday.org
 languageCode: en-us
 title: Premday SONiC Network
 
@@ -30,7 +30,7 @@ params:
     displayCopyright: true
     displayPoweredBy: false
   editURL:
-    base: "https://premday.github.io/sonic/edit/main/content"
+    base: "https://sonic.premday.org/edit/main/content"
     text: "Edit this page"
 
 markup:
@@ -59,6 +59,6 @@ menu:
         icon: github
     - name: Premday
       weight: 98
-      url: "https://premday.github.io"
+      url: "https://sonic.premday.org"
       params:
         icon: home
