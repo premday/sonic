@@ -33,8 +33,8 @@ cascade:
   >}}
 
   {{< hextra/feature-card
-    title="Hardware"
-    subtitle="Vendor-neutral switching hardware approved by people who have already bought and run the gear."
+    title="SONiC-ready hardware"
+    subtitle="Curated list of Community SONiC hardware approved by infra-owners who have already bought and run the gear."
     class="premday_card"
     link="sonic/tested-platforms"
   >}}
