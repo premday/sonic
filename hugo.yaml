@@ -48,6 +48,9 @@ menu:
     - name: Networking
       pageRef: /networking
       weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
     - name: Theme Toggle
       weight: 97
       params:
